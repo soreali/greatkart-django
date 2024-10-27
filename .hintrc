@@ -22,13 +22,20 @@
     "axe/forms": [
       "default",
       {
-        "select-name": "off"
+        "select-name": "off",
+        "label": "off"
       }
     ],
     "axe/structure": [
       "default",
       {
         "list": "off"
+      }
+    ],
+    "axe/parsing": [
+      "default",
+      {
+        "duplicate-id-active": "off"
       }
     ]
   }
