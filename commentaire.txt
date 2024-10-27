@@ -1,0 +1,10 @@
+acces superuser
+
+email : sorealiber@gmail.com
+username : soreal
+first_name : Ali
+last_name : SORE
+password : soreal
+
+
+episode [05]6
