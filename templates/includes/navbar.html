@@ -48,9 +48,9 @@
                 </div>
                 <a href="{% url 'store' %}" class="btn btn-outline-primary">Boutique</a>
                 <div class="col-lg  col-md-6 col-sm-12 col">
-                    <form action="#" class="search">
+                    <form action="{% url 'search' %}" method="GET" class="search">
                         <div class="input-group w-100">
-                            <input type="text" class="form-control" style="width:60%;" placeholder="Recherche">
+                            <input type="text" class="form-control" style="width:60%;" placeholder="Recherche" name="keyword">
 
                             <div class="input-group-append">
                                 <button class="btn btn-primary" type="submit">
